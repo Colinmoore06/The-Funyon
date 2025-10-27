@@ -1,0 +1,278 @@
+@media (min-width: 576px) {
+
+    /* puts title of the website at top of page */
+    h1 {
+        background-color: #bd85f5;
+        color: white;
+        padding: 2vmax;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 20px;
+        border: solid 4px rgb(255, 186, 57);
+        margin: 0 7vw 5vh 7vw;
+    }
+
+    /* makes website background light yellow */
+    body {
+        background-color: #fff87b
+    }
+
+    /* changes color of alien story header */
+    #alien-story-header {
+        color: #007618;
+        font-size: 4vw;
+    }
+
+    /* makes the box and positions contents for alien story */
+    .story-about-aliens {
+        border: solid 3px rgb(255, 186, 57);
+        border-radius: 20px;
+        contain: content;
+        margin-right: 30vw;
+        padding-right: 5px;
+        background-color: #84c8ff;
+        padding-left: 2vw;
+        color: white;
+        padding-bottom: 30px;
+        margin-bottom: 7vw;
+        font-size: 3vw;
+    }
+
+    /* edits and positions the ufo picture */
+    #ufo-picture {
+        float: left;
+        position: relative;
+        margin: 10px 25px 10px 0;
+        border-radius: 20px;
+        width: 33vw;
+        height: 30vw;
+    }
+
+    /* styles the link to the alien story */
+    #alien-story-link {
+        position: relative;
+        background-color: white;
+        padding: 2vw;
+        border-radius: 20px;
+    }
+
+    /* changes colors of the alien story link when hovered over */
+    #alien-story-link:hover {
+        background-color: #007618;
+        color: white;
+    }
+
+    /* makes the box and edits the content for the dragon story */
+    .story-about-dragon {
+        margin-left: 30vw;
+        border: solid 3px rgb(255, 186, 57);
+        border-radius: 20px;
+        contain: content;
+        padding-right: 5px;
+        background-color: #97fe97;
+        padding-left: 2vw;
+        color: white;
+        padding-bottom: 30px;
+        margin-bottom: 30vw;
+        font-size: 3vw;
+    }
+
+    #image-of-dragon {
+        float: left;
+        position: relative;
+        margin: 10px 25px 10px 0;
+        border-radius: 20px;
+        width: 33vw;
+        height: 30vw;
+    }
+
+    #dragon-story-header {
+        padding-bottom: 14vw;
+        color: #ff9142;
+        font-size: 4vw;
+    }
+
+    #dragon-story-link {
+        position: relative;
+        background-color: white;
+        padding: 2vw;
+        border-radius: 20px;
+    }
+
+    #dragon-story-link:hover {
+        background-color: #ff9142;
+        color: white;
+    }
+
+    .full-story-about-aliens {
+        border: solid 3px rgb(255, 186, 57);
+        border-radius: 20px;
+        contain: content;
+        padding-right: 5px;
+        background-color: #84c8ff;
+        padding-left: 2vw;
+        color: white;
+        padding-bottom: 30px;
+        font-size: 3vw;
+        margin-bottom: 30vw;
+    }
+
+    #full-story-about-aliens-header {
+        color: #007618;
+        font-size: 6vw;
+    }
+
+    #full-story-ufo-img {
+        position: relative;
+        margin: 10px 0 10px 13vw;
+        border-radius: 20px;
+        width: 60vw;
+        height: 50vw;
+    }
+
+    em {
+        color: green;
+    }
+
+    .full-story-about-dragon {
+        border: solid 3px rgb(255, 186, 57);
+        border-radius: 20px;
+        contain: content;
+        padding-right: 5px;
+        background-color: #97fe97;
+        padding-left: 2vw;
+        color: white;
+        padding-bottom: 30px;
+        margin-bottom: 30vw;
+        font-size: 3vw;
+    }
+
+    #full-story-about-dragon-header {
+        color: #ff9142;
+        font-size: 6vw;
+    }
+
+    #full-story-dragon-img {
+        position: relative;
+        margin: 10px 0 10px 13vw;
+        border-radius: 20px;
+        width: 60vw;
+        height: 50vw;
+    }
+
+    #little-onion-guy {
+        display: none;
+    }
+
+    #white-little-onion-guy {
+        display: none;
+    }
+}
+
+@media (min-width: 720px) {
+    body {
+        background-color: rgb(255, 140, 230);
+    }
+
+    h1 {
+        background-color: #4781ff;
+    }
+
+    #little-onion-guy {
+        display: block;
+        position: absolute;
+        right: 5vw;
+        top: 30vw;
+        width: 20vw;
+        transform: scaleX(-1);
+    }
+
+    #white-little-onion-guy {
+        display: block;
+        position: absolute;
+        left: 5vw;
+        top: 95vw;
+        width: 20vw;
+        transform: scaleX(-1);
+    }
+}
+
+@media (min-width: 992px) {
+
+    body {
+        background-image: url(images/close-up-on-an-onion.jpg);
+    }
+
+    h1 {
+        background-color: #7aff6c;
+    }
+
+    #little-onion-guy {
+        background-color: white;
+        border-radius: 20px;
+        border: rgb(255, 186, 57) 2px solid;
+        top: 18vw;
+    }
+
+    #white-little-onion-guy {
+        background-color: white;
+        border-radius: 20px;
+        border: rgb(255, 186, 57) 2px solid;
+        top: 60vw;
+    }
+
+    .story-about-aliens {
+        font-size: 1.5vw;
+    }
+
+    #alien-story-header {
+        font-size: 3vw;
+    }
+
+    .story-about-dragon {
+        font-size: 1.5vw;
+    }
+
+
+
+    #dragon-story-header {
+        font-size: 3vw;
+        padding-bottom: 0px;
+    }
+
+    .full-story-about-aliens {
+        font-size: 1.5vw;
+        width: 50vw;
+        margin: auto;
+        margin-bottom: 20vw;
+    }
+
+    #full-story-about-aliens-header {
+        font-size: 2.5vw;
+    }
+
+    #full-story-ufo-img {
+        width: 40vw;
+        height: 30vw;
+        margin: auto;
+    }
+
+    .full-story-about-dragon {
+        font-size: 1.5vw;
+        width: 50vw;
+        margin: auto;
+        margin-bottom: 20vw;
+    }
+
+    #full-story-about-dragon-header {
+        font-size: 2.5vw;
+        padding-bottom: 1vw;
+    }
+
+    #full-story-dragon-img {
+        width: 40vw;
+        height: 30vw;
+        margin: auto;
+    }
+
+}
